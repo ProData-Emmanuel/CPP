@@ -1,0 +1,6 @@
+THE RGB Color Scheme;
+The colors of an image are determined by its pixel values. An RGB image has 3 color channels - Red, Green and Blue. Here, each color Channel has a pixel value ranging from 0 to 255. For example, the number 0 in a channel means there's no color, and 255 means there's 100% color. If a pixel value is represented by [255,255,0], it means that we have 100% Red and Green colors, and there is no Blue color.
+
+Grayscale colors are special in the RGB color scheme because every grayscale color (from white to black to all shades of gray always has equal values for R, G and B.
+
+Due to this, grayscale colors can be represented by a single number as opposed to the three numbers that three color channels require in RGB. A grayscale image hence has only one channel, where the pixel values range from 0 to 255. The pixel value 0 represents black and the value 255 represents white. The method of conversion of images from RGB, HSV, etc to a grey shaded image is called Grayscaling.
